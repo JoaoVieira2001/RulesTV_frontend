@@ -1,20 +1,20 @@
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './routes/home/home.component';
-import { WatchlistComponent } from './routes/watchlist/watchlist.component';
-import { SeriesComponent } from './routes/series/series.component';
-import { MoviesComponent } from './routes/movies/movies.component';
-import { EditProfileComponent } from './routes/edit-profile/edit-profile.component';
-import { EnterPinComponent } from './routes/enter-pin/enter-pin.component';
-import { FaqComponent } from './routes/faq/faq.component';
-import { ForgotPasswordComponent } from './routes/forgot-password/forgot-password.component';
-import { ForgotPasswordCreatePasswordComponent } from './routes/forgot-password-create-password/forgot-password-create-password.component';
-import { ForgotPasswordVerifyComponent } from './routes/forgot-password-verify/forgot-password-verify.component';
-import { ForgotPinComponent } from './routes/forgot-pin/forgot-pin.component';
-import { ForgotPinReplaceComponent } from './routes/forgot-pin-replace/forgot-pin-replace.component';
-import { SelectAvatarComponent } from './routes/select-avatar/select-avatar.component';
-import { SelectProfileComponent } from './routes/select-profile/select-profile.component';
-import { SignUpComponent } from './routes/sign-up/sign-up.component';
-import { SignInComponent } from './routes/sign-in/sign-in.component';
+import { HomeComponent } from './home/home.component';
+import { WatchlistComponent } from './watchlist/watchlist.component';
+import { SeriesComponent } from './series/series.component';
+import { MoviesComponent } from './movies/movies.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { EnterPinComponent } from './enter-pin/enter-pin.component';
+import { FaqComponent } from './faq/faq.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ForgotPasswordCreatePasswordComponent } from './forgot-password-create-password/forgot-password-create-password.component';
+import { ForgotPasswordVerifyComponent } from './forgot-password-verify/forgot-password-verify.component';
+import { ForgotPinComponent } from './forgot-pin/forgot-pin.component';
+import { ForgotPinReplaceComponent } from './forgot-pin-replace/forgot-pin-replace.component';
+import { SelectAvatarComponent } from './select-avatar/select-avatar.component';
+import { SelectProfileComponent } from './select-profile/select-profile.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
