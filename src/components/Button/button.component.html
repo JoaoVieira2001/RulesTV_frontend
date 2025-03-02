@@ -1,0 +1,9 @@
+<button
+  (click)="handleClick()"
+>
+  <ng-container *ngIf="icon">
+    <i class="{{icon}}"></i>
+  </ng-container>
+
+  {{text}}
+</button>
