@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import {NavbarComponent} from "../../components/Navbar/navbar.component";
-import {RouterOutlet} from '@angular/router';
+import {FooterComponent} from "../../components/Footer/footer.component";
 
 @Component({
   selector: 'app-series',
-  imports: [
-    NavbarComponent,
-  ],
+    imports: [
+        NavbarComponent,
+        FooterComponent,
+    ],
   templateUrl: './series.component.html',
   styleUrl: './series.component.css'
 })
