@@ -11,7 +11,7 @@
     </div>
 
     <div class="nav-center-container">
-      <img src="assets/images/Switch_Off.png" alt="Center Logo">
+      <img src="assets/images/Logo_2.png" alt="Center Logo">
     </div>
 
 
@@ -25,10 +25,18 @@
         <i class="fas fa-bell"></i>
       </button>
 
-
-      <div class="profile">
-        <img src="assets/images/Profile_Avatar.png" alt="User Avatar" class="avatar">
+      <div class="profile-container" (click)="toggleDropdown()">
+        <img src="assets/images/Profile_Avatar.png" alt="" class="avatar">
+        <span class="username">João Vieira</span>
+        <div class="dropdown" *ngIf="dropdownOpen">
+          <div class="dropdown-content">
+            <a routerLink="/edit-profile">EDIT PROFILE</a>
+            <a routerLink="/faq">FAQ</a>
+            <a routerLink="/logout">LOG OUT</a>
+          </div>
+        </div>
       </div>
+
     </div>
 
   </nav>

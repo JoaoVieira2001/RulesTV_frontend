@@ -8,15 +8,16 @@
     <p-select
       [options]="languages"
       [(ngModel)]="selectedLanguage"
-      optionLabel="name"
-      placeholder="Select a language"
-      class="w-full md:w-56"
+      optionLabel="label"
+      placeholder="🌐 Language"
+      class="dropdown"
       (onChange)="onLanguageChange($event)"
-    />
+    ></p-select>
 
   </div>
 
   <div class="footer-social-container">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
     <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
     <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>

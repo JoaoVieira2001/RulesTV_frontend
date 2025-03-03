@@ -1,12 +1,13 @@
 .footer {
-  background: #222222;
+  background: #182536;
   color: #fff;
   padding: 20px;
   text-align: center;
   font-size: 14px;
   overflow: visible;
+  border: 1px solid #00bfff;
 
-.footer-links {
+  .footer-links {
   margin-bottom: 20px;
   justify-content: center;
   display: flex;
@@ -35,20 +36,21 @@
     z-index: 10;
   }
 }
-/*
-  .footer-language {
-    margin-bottom: 10px;
-    height: 30px;
-    .language-btn {
-      background: #192a56;
-      color: #fff;
-      border: none;
-      padding: 10px 10px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
+
+  .dropdown {
+    background: #083777;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 150px;
   }
-*/
+
+  .p-dropdown-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
   .footer-social-container {
     margin-bottom: 10px;
     a {
@@ -61,15 +63,9 @@
     }
   }
 
-  img {
-    width: 24px;
-    height: 24px;
-    filter: brightness(0) invert(1);
-  transition: 0.3s;
-  }
 
   .footer-copy {
     font-size: 12px;
-    color: #666;
+    color: #59FDFE;
   }
 }
