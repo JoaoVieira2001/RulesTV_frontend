@@ -42,6 +42,9 @@
   }
 }
 
+.logo-image{
+  cursor: pointer;
+}
 .nav-links li a.active {
   color: #00EDD9;
   font-weight: bold;
