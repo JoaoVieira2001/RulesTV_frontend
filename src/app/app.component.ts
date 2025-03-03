@@ -12,10 +12,6 @@ import {ButtonComponent} from '../components/Button/button.component';
 export class AppComponent {
   protected readonly ButtonComponent = ButtonComponent;
 
-  onButtonClick(){
-    console.log("Button Clicked");
-    alert('Button Clicked!!!')
-  }
 
 
 }

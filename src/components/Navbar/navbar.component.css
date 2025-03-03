@@ -24,12 +24,19 @@
   padding: 0;
 }
 
-.nav-links li a {
+.nav-links li {
   text-decoration: none;
   color: white;
   font-size: 18px;
   font-family: 'Orbitron', sans-serif;
   transition: 0.3s;
+  a{
+    color: #aaa;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
 }
 
 .nav-links li a.active {
@@ -37,7 +44,6 @@
   font-weight: bold;
 }
 
-/* Nav Center */
 .nav-center-container {
   display: flex;
   align-items: center;
