@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: center;
   width: 50%;
+  margin-top: 0.5%;
   height: 80%;
 }
 
@@ -70,10 +71,9 @@
 .nav-right-container {
   display: flex;
   justify-content: flex-end;
-  /*align-items: center;*/
-  /*flex-wrap: wrap;*/
   gap: 10px;
   width: 25%;
+
   height: 85%
 }
 
@@ -93,6 +93,7 @@
 .profile-container {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   position: relative;
   gap: 15px;
   min-width: auto;
@@ -111,9 +112,17 @@
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100%;
+  display: none;
+}
+
+.profile-container:hover .dropdown,
+.dropdown:hover {
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-btn {
@@ -125,15 +134,13 @@
 
 .dropdown-content {
   display: flex;
-  margin-top: 50px;
   flex-direction: column;
-  position: absolute;
-  right: 0;
+  position: relative;
+  left:6px;
   background-color: #182536;
   border: 1px solid cyan;
   z-index: 1;
-  width: 241.84px;
-
+  width: 110%;
 }
 
 .dropdown-content a {
@@ -149,6 +156,11 @@
 .dropdown-content a:hover {
   background-color: cyan;
   color: black;
+}
+
+.profile-container:hover .dropdown {
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-container:hover .dropdown-content {

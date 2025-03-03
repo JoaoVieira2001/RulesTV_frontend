@@ -11,7 +11,7 @@ import {NgIf} from '@angular/common';
     RouterLinkActive,
     DropdownModule,
     FormsModule,
-    NgIf,
+
 
   ],
   templateUrl: './navbar.component.html',
@@ -19,9 +19,5 @@ import {NgIf} from '@angular/common';
 
 })
 export class NavbarComponent {
-  dropdownOpen = false;
 
-  toggleDropdown(){
-    this.dropdownOpen = !this.dropdownOpen;
-  }
 }
